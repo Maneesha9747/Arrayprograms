@@ -54,11 +54,6 @@ console.log(`-------------------------------------------------------`);
 
 employee.filter((emp)=> emp[2]=='QA' && emp[3]=='TVM').forEach((emp)=>console.log(emp))
 
-//Group employees by designation 
-//(developer, tester, QA) 
-
-
-
 //Find second highest salary  
 
 sort=employee.sort((emp1,emp2)=>emp2[4] - emp1[4])
